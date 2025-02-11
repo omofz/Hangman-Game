@@ -1,0 +1,9 @@
+while (not guessed and not out of guesses):
+    display word to be guessed
+    get player guess
+    if guess is not already guessed:
+        check if guess is in secret word
+        if guess is in secret word:
+            update guessed word
+        else:
+            increment number of wrong guesses
